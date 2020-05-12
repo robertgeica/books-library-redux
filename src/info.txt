@@ -1,0 +1,21 @@
+// STORE -> Globalized state
+
+// ACTION -> Describes what you want to do
+
+// REDUCER -> Describe how action transform the state
+// Check what action you did and update the store
+-- to use more reducers you need to combine them
+import {combineReducers} from 'redux';
+
+
+// DISPATCH -> Really execute the action
+
+
+
+
+// react redux
+to connect redux with react you need:
+import {Provider} from 'react-redux';
+
+to manipulate state you need useSelector, useDispatch
+import {useSelector, useDispatch} from 'react-redux';
